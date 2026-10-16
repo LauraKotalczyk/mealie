@@ -72,6 +72,7 @@ export interface ReadPlanEntry {
   groupId: string;
   userId: string;
   householdId: string;
+  position: number;
   recipe?: RecipeSummary | null;
 }
 export interface RecipeSummary {
@@ -125,6 +126,10 @@ export interface RecipeTool {
   slug: string;
   recipeCount?: number;
   householdsWithTool?: string[];
+}
+export interface ReorderPlanEntriesByDay {
+  date: string;
+  entryIds: number[];
 }
 export interface SavePlanEntry {
   date: string;

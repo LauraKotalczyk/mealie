@@ -5,6 +5,7 @@ from .new_meal import (
     PlanEntryPagination,
     PlanEntryType,
     ReadPlanEntry,
+    ReorderPlanEntriesByDay,
     SavePlanEntry,
     UpdatePlanEntry,
 )
@@ -17,6 +18,7 @@ __all__ = [
     "PlanEntryPagination",
     "PlanEntryType",
     "ReadPlanEntry",
+    "ReorderPlanEntriesByDay",
     "SavePlanEntry",
     "UpdatePlanEntry",
     "PlanRulesCreate",
